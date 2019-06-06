@@ -1,20 +1,27 @@
 {
-  "name": "Article-Scraper",
+  "name": "news-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DearLorditsNate/news-scraper.git"
+  },
+  "author": "Nate Micinski",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DearLorditsNate/news-scraper/issues"
+  },
+  "homepage": "https://github.com/DearLorditsNate/news-scraper#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mongoose": "^5.5.12",
-    "morgan": "^1.9.1"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.1"
   }
 }

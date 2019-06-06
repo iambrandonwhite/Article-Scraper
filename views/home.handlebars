@@ -1,0 +1,21 @@
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-4 pt-5 mt-5">Mongo Scraper</h1>
+        <p class="lead">Digg Edition</p>
+    </div>
+</div>
+
+{{!-- Scraped Articles --}}
+<div class="container">
+    {{#each articles}}
+        <div class="card m-3">
+            <div class="card-header">
+                <a href="{{link}}" target="_blank" class="title">{{title}}</a>
+                <a href="/save" class="btn btn-success save-btn" data-id="{{_id}}">Save Article</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{summary}}</p>
+            </div>
+        </div>
+    {{/each}}
+</div>
