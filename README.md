@@ -10,12 +10,12 @@ https://article-scraper-web.herokuapp.com/
 
 ## Technologies Used
 * Node.js
-* Express.js
+* Express
 * Handlebars
 * MongoDB
 * Mongoose
 * Axios
-* Cheerio.js
+* Cheerio
 
 **Features include:**
 * Get the current articles on Digg.com using Cheerio.js and Axios
